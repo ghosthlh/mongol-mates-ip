@@ -1,0 +1,37 @@
+id: brother
+name: 弟弟
+status: reference_only
+master_file: null
+references_dir: references
+approved_dir: approved
+immutable_features:
+- 蓝色蒙古袍主色
+- 彩色帽冠结构（蓝红黄）
+- 红色帽缨位置与比例（不可无故放大）
+- 棕色短碎刘海轮廓
+- 眼睛整体风格
+special_rules:
+- 背面或半背面视角衣服背部纹样须遵守具体母版，不随意增加斜向装饰
+palette_source: config/characters.yaml#brother.provisional_palette
+palette_frozen: false
+expression_reference_card:
+  file: references/expression_sheet.png
+  type: expression_angle_reference
+  derived_from: 已批准的嘴替篇视觉母版（纯整理，未重画未生成）
+  sticker_ids:
+  - 1
+  - 7
+  - 9
+  - 10
+  - 16
+  is_master: false
+  is_deliverable: false
+  approval_status: reference_only
+  note: 仅用于跨AI传递角色表情/头饰角度；身份特征以已批准表情母版为准。
+fullbody_structure_card:
+  file: null
+  type: structure_reference
+  status: pending_generation
+  is_master: false
+  is_deliverable: false
+  note: 待用绑定图像工具生成；生成后须逐项核对身份特征并经用户审核，方可作为结构参考。

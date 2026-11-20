@@ -1,0 +1,45 @@
+series_id: vol01_daily
+name: 日常篇
+plan_id: vol01_daily
+sticker_count: 16
+source_dir: ../蒙古萌友/蒙古萌友01日常篇
+masters_dir: masters
+working_dir: working
+approved_dir: approved
+revisions_dir: revisions
+previews_dir: previews
+layout_note: 多数人物上方/中间、中文下方；具体以已审核母版为准
+approval_status: needs_review
+stickers:
+- sticker_id: '01'
+  title: 你好！
+- sticker_id: '02'
+  title: 在吗？
+- sticker_id: '03'
+  title: 来啦！
+- sticker_id: '04'
+  title: 兄弟！
+- sticker_id: '05'
+  title: 好！
+- sticker_id: '06'
+  title: 行！
+- sticker_id: '07'
+  title: 对！
+- sticker_id: 08
+  title: 不！
+- sticker_id: 09
+  title: 谢谢！
+- sticker_id: '10'
+  title: 对不起！
+- sticker_id: '11'
+  title: 没关系！
+- sticker_id: '12'
+  title: 哈哈哈！
+- sticker_id: '13'
+  title: 晚安！
+- sticker_id: '14'
+  title: 路上小心！
+- sticker_id: '15'
+  title: 拜拜！
+- sticker_id: '16'
+  title: 那达慕！

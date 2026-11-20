@@ -1,0 +1,31 @@
+# Git 仓库根目录：表情包/  （同时纳管 MongolMates/ 规范系统与 蒙古萌友/ 原始母版）
+# 目标：clone 后即有完整母版 + 完整规范，脚本相对路径全部有效。
+# 注意：git 不支持行尾内联注释，注释必须单独成行。
+
+# 系统 / 工具临时文件
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+.workbuddy/
+.designkit-history-delivery/
+
+# Python 测试/构建产物
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# 发布包（体积大且可再生成，不进仓库）
+*.zip
+
+# 项目内可再生成的派生图（由 tools/ 脚本产出，不进仓库）
+MongolMates/series/*/previews/*.png
+MongolMates/characters/*/references/expression_sheet.png
+
+# 说明：
+# - 原始母版 蒙古萌友/**/*.png|jpg 全部纳入（官方资产，必须随仓库走）。
+# - 全身结构参考卡若将来生成，属候选资产，需人工决定是否纳入（届时手动 git add -f）。

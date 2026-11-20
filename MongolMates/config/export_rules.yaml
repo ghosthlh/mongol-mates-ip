@@ -1,0 +1,45 @@
+# 导出与交付规范（机器可读）
+native_master:
+  dir_name: "original"
+  formats: [PNG]
+  preferred_min_size: 1200
+  upscale_lowres_to_fake_hd: false
+  if_source_is_240_only: "source_resolution 记为 240x240，is_native_master=false，标记 missing_native_master"
+  preserve_confirmed_composition: true
+
+wechat_240:
+  dir_name: "240x240"
+  size: [240, 240]
+  formats: [PNG]
+  resample_filter: LANCZOS           # 高质量缩放，禁止 NEAREST 拉伸
+  keep_alpha_for_transparent: true
+  keep_white_for_white_scene: true
+  max_file_size_kb: 500
+  must_derive_from_approved_native_master: true
+  forbid_reverse_upscale_from_240: true
+
+naming:
+  version_example: "Vol03_11_我想静静_v1.0.png"
+  zip_full_example: "MongolMates_Vol03_Reactions_v1.0.zip"
+  zip_patch_example: "MongolMates_Vol03_Patch_01_11_v1.1.zip"
+
+zip_delivery:
+  mode_full:
+    dir_name_pattern: "MongolMates_VolXX_Name"
+    allowed_subdirs: ["original", "240x240"]
+    expected_pairs_per_series: 16
+  mode_patch:
+    dir_name_pattern: "MongolMates_VolXX_Patch"
+    allowed_subdirs: ["original", "240x240"]
+    rule: "只包含本次修改的表情，不得重新加入未修改图片"
+  forbid_extra_files: true
+  forbid_system_files: [".DS_Store", "Thumbs.db", "__MACOSX"]
+  require_all_approved: true
+  require_native_master_present: true   # 缺失原生高清则拒绝“虚假正式发布”
+
+annex_assets:   # 微信专辑附属素材，不属于标准 16 张 ZIP
+  - {name: 表情封面, size: [240, 240], background: transparent}
+  - {name: 聊天页图标, size: [50, 50], background: transparent}
+  - {name: 详情页横幅, size: [750, 400], background: scene}
+  - {name: 赞赏引导图, size: [750, 560], background: scene}
+  - {name: 赞赏致谢图, size: [750, 750], background: scene}

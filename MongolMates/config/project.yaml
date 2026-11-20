@@ -1,0 +1,76 @@
+# 蒙古萌友 IP 资产管理系统 — 项目主配置
+# 这是机器可读的“唯一事实来源”之一，所有工具脚本从此处读取规则。
+spec_version: "1.0"
+project_name: "蒙古萌友"
+project_name_en: "MongolMates"
+project_type: "原创角色 IP / 微信静态表情包"
+updated_at: "2026-11-20"
+
+# 所有路径均为相对路径：相对本项目根目录（MongolMates/）
+paths:
+  source_scan_dir: "../蒙古萌友"        # 现有原图所在目录（只读扫描，不修改）
+  inbox: "assets/inbox"
+  source_originals: "assets/source_originals"
+  shared_references: "assets/shared_references"
+  quarantine: "assets/quarantine"
+  characters: "characters"
+  series_root: "series"
+  reports: "reports"
+  releases: "releases"
+
+# 三套系列定义
+series:
+  - id: vol01_daily
+    name: 日常篇
+    sticker_count: 16
+    dir: "series/vol01_daily"
+    release_zip_name: "MongolMates_Vol01_Daily_v{version}.zip"
+  - id: vol02_emotions
+    name: 情绪篇
+    sticker_count: 16
+    dir: "series/vol02_emotions"
+    release_zip_name: "MongolMates_Vol02_Emotions_v{version}.zip"
+  - id: vol03_reactions
+    name: 嘴替篇
+    sticker_count: 16
+    dir: "series/vol03_reactions"
+    release_zip_name: "MongolMates_Vol03_Reactions_v{version}.zip"
+
+# 四位合法角色 ID
+character_ids: [father, mother, sister, brother]
+
+# 枚举：背景模式
+background_modes:
+  - transparent      # 透明背景，需要白色外描边
+  - white_scene      # 复杂场景，保留白色不透明背景
+
+# 枚举：构图类型
+compositions:
+  - bust             # 半身
+  - full_body        # 全身
+  - seated           # 坐姿
+  - scene            # 完整场景
+
+# 枚举：审核状态（唯一合法值）
+approval_statuses:
+  - imported         # 已导入，未检查
+  - needs_review     # 需要人工检查
+  - working          # 正在修改
+  - candidate        # 候选修正版
+  - approved         # 用户已明确确认
+  - rejected         # 用户明确否决
+  - archived         # 旧版本归档
+
+# 关键原则（工具与文档必须遵守）
+principles:
+  single_source_of_truth: true
+  images_are_final_appearance: true
+  never_auto_approve: true
+  never_fake_native_master: true
+  never_modify_source_inputs: true
+  never_stretch_or_duplicate_pixels_for_body: true
+  local_repair_only_when_requested: true
+  one_zip_per_series: true
+
+# 自动批准禁令：任何工具不得仅凭“文件存在/导出成功”把状态置为 approved
+auto_approve_allowed: false

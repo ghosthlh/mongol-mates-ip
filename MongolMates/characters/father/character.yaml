@@ -1,0 +1,35 @@
+id: father
+name: 爸爸
+status: reference_only
+master_file: null
+references_dir: references
+approved_dir: approved
+immutable_features:
+- 胡子主要形状与覆盖范围（深棕色八字胡及络腮胡）
+- 棕色传统蒙古帽基本造型（红顶装饰）
+- 棕色袍服主色
+- 金黄色几何纹样整体风格
+- 成年男性身份
+palette_source: config/characters.yaml#father.provisional_palette
+palette_frozen: false
+expression_reference_card:
+  file: references/expression_sheet.png
+  type: expression_angle_reference
+  derived_from: 已批准的嘴替篇视觉母版（纯整理，未重画未生成）
+  sticker_ids:
+  - 4
+  - 6
+  - 12
+  - 13
+  - 16
+  is_master: false
+  is_deliverable: false
+  approval_status: reference_only
+  note: 仅用于跨AI传递角色表情/头饰角度；身份特征以已批准表情母版为准。
+fullbody_structure_card:
+  file: null
+  type: structure_reference
+  status: pending_generation
+  is_master: false
+  is_deliverable: false
+  note: 待用绑定图像工具生成；生成后须逐项核对身份特征并经用户审核，方可作为结构参考。

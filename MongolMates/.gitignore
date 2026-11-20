@@ -1,0 +1,12 @@
+# gitignore
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+# 大型二进制素材建议走 Git LFS，避免无差别提交
+# 如需纳管，请用 git lfs track "*.png"
+releases/**/*.zip
+reports/**/*.tmp

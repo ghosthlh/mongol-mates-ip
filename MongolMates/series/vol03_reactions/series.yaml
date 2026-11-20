@@ -1,0 +1,45 @@
+series_id: vol03_reactions
+name: 嘴替篇
+plan_id: vol03_reactions
+sticker_count: 16
+source_dir: ../蒙古萌友/蒙古萌友03嘴替篇
+masters_dir: masters
+working_dir: working
+approved_dir: approved
+revisions_dir: revisions
+previews_dir: previews
+layout_note: 多数中文位于上方、人物中下部；第10张放射线背景保留白底
+approval_status: needs_review
+stickers:
+- sticker_id: '01'
+  title: 啊？！
+- sticker_id: '02'
+  title: 让我看看～
+- sticker_id: '03'
+  title: 吃瓜中～
+- sticker_id: '04'
+  title: 啥情况？
+- sticker_id: '05'
+  title: 不敢说～
+- sticker_id: '06'
+  title: 你说得对！
+- sticker_id: '07'
+  title: 我先溜了！
+- sticker_id: 08
+  title: 别催啦！
+- sticker_id: 09
+  title: 找人弄你！
+- sticker_id: '10'
+  title: 你才是挑战者哦！
+- sticker_id: '11'
+  title: 我想静静…
+- sticker_id: '12'
+  title: 就这？
+- sticker_id: '13'
+  title: 有点东西！
+- sticker_id: '14'
+  title: 你礼貌吗？
+- sticker_id: '15'
+  title: 让我想想…
+- sticker_id: '16'
+  title: 你们真行！

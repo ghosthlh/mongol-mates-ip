@@ -1,0 +1,78 @@
+# 四位角色结构化设定（机器可读摘要）
+# 完整叙述见 docs/CHARACTER_BIBLE.md。主色为参考图采样值(provisional)，须由正式母版确认后冻结。
+palette_status: "provisional_from_240px_reference_not_frozen"
+
+father:
+  id: father
+  name: 爸爸
+  identity: 蒙古萌友家庭中的父亲，成年男性
+  body: 体型圆润敦实，稳重
+  robe: 棕色传统蒙古袍
+  robe_decoration: 金黄色服装包边及蒙古风格几何纹样
+  waist: 红色腰带或腰部装饰
+  hat: 棕色传统蒙古帽，带红色顶部装饰
+  facial_hair: 浓眉、明显深棕色八字胡及络腮胡
+  skin: 暖色调，脸颊可带轻微红晕
+  expressions: [喜悦, 疑惑, 无奈, 震惊, 夸张变化]
+  immutable: [胡子主要形状与覆盖范围, 帽子基本造型, 棕色袍服主色, 黄色纹样整体风格, 成年男性身份]
+  forbidden: [画成没有胡子的青年, 改成其他角色的脸型]
+  provisional_palette:
+    robe_brown: ["#86451C", "#713610", "#924B1B"]
+    gold_trim: ["#FCA539", "#C89747", "#B26218"]
+    outline_dark: ["#3D2D21"]
+    skin_warm: ["#FED5A6", "#EBD1B3"]
+
+mother:
+  id: mother
+  name: 妈妈
+  robe: 青绿色蒙古袍
+  robe_decoration: 黄色或金黄色袖口、衣领、腰部纹样
+  hair: 棕色，盘发或发髻
+  headwear: 粉色蝴蝶结造型头巾
+  face: 圆润脸型、柔和肤色、淡淡红晕
+  expressions: [温柔, 开心, 无奈, 疲惫, 尴尬, 嫌弃]
+  immutable: [粉色头巾与棕色盘发的结构关系, 青绿色衣服主色, 黄色装饰风格, 与姐姐头饰的区别]
+  forbidden: [把蝴蝶结头巾替换成姐姐的传统粉色尖顶蒙古帽]
+  provisional_palette:
+    robe_teal: ["#2CB17C", "#4D885A", "#536048"]
+    pink_headwear: ["#FE909D", "#E95D5E"]
+    hair_brown: ["#503726"]
+    skin_warm: ["#FED8AA", "#FED6A1"]
+
+sister:
+  id: sister
+  name: 姐姐
+  robe: 红色传统蒙古袍
+  robe_decoration: 黄色、金色衣领与袖口纹样
+  hat: 粉色尖顶传统蒙古帽，帽缘黄色曲线/锯齿传统纹样，帽顶黄色花形装饰
+  hair: 棕色，通常两根麻花辫；辫尾黄色束环和红蓝色扇形流苏
+  face: 脸型圆润，表情灵活
+  immutable: [尖顶帽基本轮廓, 两根辫子基础造型, 辫尾红蓝流苏结构, 红色蒙古袍主色, 帽子与头发连接关系]
+  special_rules:
+    - "侧面或 3/4 侧面只绘制视角中自然可见的那一根辫子"
+    - "不得在同侧额外添加第二根辫子"
+    - "不得将帽顶画成妈妈的蝴蝶结"
+  provisional_palette:
+    robe_red: ["#F51D09", "#F6474B", "#FE8468"]
+    gold_trim: ["#F4A366"]
+    hair_brown: ["#67422E", "#24263C"]
+    skin_warm: ["#FDD5A8", "#FDD6A8"]
+
+brother:
+  id: brother
+  name: 弟弟
+  robe: 蓝色传统蒙古袍
+  robe_decoration: 黄色领口、袖口及装饰纹样，可有蓝色十字或小型几何符号
+  hat: 多色传统蒙古帽（蓝、红、黄为主），帽檐金黄色/橙黄色装饰层次，帽后有红色帽缨
+  hair: 棕色短碎刘海
+  face: 圆脸、大眼睛，可爱活泼
+  immutable: [蓝色蒙古袍主色, 彩色帽冠结构, 帽缨位置与比例, 碎刘海轮廓, 眼睛整体风格]
+  special_rules:
+    - "红色帽缨不可无故放大"
+    - "背面或半背面视角的衣服背部纹样须遵守具体母版，不能随意增加斜向装饰"
+  provisional_palette:
+    robe_blue: ["#415B94", "#303C78"]
+    gold_trim: ["#F8BE50"]
+    hat_red: ["#F61907"]
+    hair_brown: ["#A1491D", "#502012"]
+    skin_warm: ["#FEDFB2", "#F7DFB1"]

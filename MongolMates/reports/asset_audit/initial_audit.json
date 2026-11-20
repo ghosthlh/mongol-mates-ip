@@ -1,0 +1,783 @@
+{
+  "generated_at": "2026-11-20T07:20:58Z",
+  "source_scan_dir": "../蒙古萌友",
+  "scanned_count": 60,
+  "classification": {
+    "原生高清候选": 9,
+    "中等分辨率": 0,
+    "低清（240级）": 51,
+    "来源不明/无法解码": 0
+  },
+  "records": [
+    {
+      "path": "蒙古萌友/红包感谢.jpg",
+      "bytes": 245442,
+      "sha256": "ef339903e88ff2af39b7ed3ab6ae4fdefc177767dcc2251eed085fc323df2c94",
+      "format": "JPEG",
+      "size": [
+        750,
+        750
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/红包封面.png",
+      "bytes": 2158567,
+      "sha256": "c00b263f467f1780fd32e65c9d91a4714bc3a3827494727ce6938e944ed0bb63",
+      "format": "PNG",
+      "size": [
+        1451,
+        1084
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/四格草原家庭欢乐贴纸角色表.png",
+      "bytes": 1708557,
+      "sha256": "8657a3b11e0d008cc4c55456e88367f256ac68cbfe870d703b7c2b3daac6eef6",
+      "format": "PNG",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/11_sister_really.png",
+      "bytes": 62656,
+      "sha256": "f6cfa601c487e8b5add98b5b95e6b84b4ec2bb651384127a8754efb47ace255e",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/15_brother_go.png",
+      "bytes": 62340,
+      "sha256": "3157f844d5eb457388a71fb7517b60350b8fd52daf74a915da71b07fde14d287",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/10_sister_angry.png",
+      "bytes": 66464,
+      "sha256": "af2717c89692a7b575b043b0ca103e4a2f86cd5d86f09f93ff4784d78a04df3a",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/08_mom_exhausted.png",
+      "bytes": 58163,
+      "sha256": "e0169d8e2d623bf59aed876fe42b72498fb60869dd30621f89ec1fab749d5764",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/01_dad_steady.png",
+      "bytes": 57396,
+      "sha256": "0cae9dfefa149bb1a0a56982642d3e82f9020400d476f9216a86b7ef01cca738",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/07_mom_thanks.png",
+      "bytes": 62425,
+      "sha256": "55188f8c7658df71310df6940246a4cef109e4d42f58d93bcf5bd8cad6f4202c",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/04_dad_nervous.png",
+      "bytes": 54837,
+      "sha256": "26afd8f64f6afb1256c2d5edd68654092276711fb7593d272e98a2e3736e6f8c",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/12_sister_shy.png",
+      "bytes": 57040,
+      "sha256": "ca08b473326d67cb8061beef2f51e33dfaf0fe330b4b503213c46446989c9b30",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/06_mom_speechless.png",
+      "bytes": 59405,
+      "sha256": "647125968b1581906861d931e6f2bb236d8d74bbe86f9750170974546aea0ed3",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/09_sister_hmph.png",
+      "bytes": 69662,
+      "sha256": "921dffd8cad9270d737ec3d04a4321c4281bf40cb19508491ea88e8b8dd8f5e7",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/13_brother_shocked.png",
+      "bytes": 63663,
+      "sha256": "24f19a1fcfd125e5a76827e52638686a534922ae792830db6fb98d224e9f644d",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/02_dad_speechless.png",
+      "bytes": 62623,
+      "sha256": "906639f4ee975f6c5ed0cec85728ac8953bb7c69739519a8af285790fb422b25",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/14_brother_broken.png",
+      "bytes": 58443,
+      "sha256": "d5b8a741c285d15a1db3e2934122c6b4abc49ff94b6ebeb8de82780441585fe1",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/03_dad_amazing.png",
+      "bytes": 70371,
+      "sha256": "b3ebf28abeccc5af7cbf423a1569fdd4025865fc0072878fa9a6679e6b6e7f60",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/16_brother_sorry.png",
+      "bytes": 50971,
+      "sha256": "3b3b10a97c92b148c9e100598f5de023472ae4623af0b90e59b0fc8a280cc8ee",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/05_mom_hardwork.png",
+      "bytes": 62660,
+      "sha256": "f8e94ba60b14cf74a8d99db04fcda2c5e409e6d9024728933136479f7c2fe0ca",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/07_shoudao.png",
+      "bytes": 64939,
+      "sha256": "a9ce6cdb4dc56fbd753b529271f13a38f7102a276c0b95721342626d3fda83ea",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/02_zaima.png",
+      "bytes": 59651,
+      "sha256": "bf8da02fdbe9e441afeb58a539dc4265af4b45995fc85c8e6d87a720ebcd7a5b",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/12_hahaha.png",
+      "bytes": 63128,
+      "sha256": "46aaacc7f0ae186c0116df6d02b2bf2a97e613dc209eee85fb7cf7daaf2703bd",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/16_kaifanla.png",
+      "bytes": 77346,
+      "sha256": "c64a2d6f8b6de3842d4fe1bd8ef8e04783759c218f5754c63dd445be8377973b",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/03_laila.png",
+      "bytes": 59294,
+      "sha256": "fa31b8a41d189ac6da78a03803dc1372f8dbfc091e4e62ed36bd81e7cceec4af",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/06_xing.png",
+      "bytes": 60363,
+      "sha256": "cd48e41266c71505f22d6ea6a4d345784b4ee9d4bd722b9bc256cf5fbb88cab9",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/09_xiexie.png",
+      "bytes": 61799,
+      "sha256": "e0b5649b9b0f6973f42f7f2011dfbe525e6957a514c9c23e83739bef25db5523",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/01_nihao.png",
+      "bytes": 58854,
+      "sha256": "2d7b5cc674bf494eaa479bfed0dd9c3c8e9bd5d5ec8f1f85b903552f5fe25b39",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/05_hao.png",
+      "bytes": 60501,
+      "sha256": "fe253ea9899de2e8fb016394f2ed492eb2b998cc1fde6538f03a7ae19b802930",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/15_baibai.png",
+      "bytes": 61324,
+      "sha256": "1ba9fc713dfed3d6d8db922f8a3d02cebaeda671468cd72528a0d2a8cb2c2dfa",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/10_duibuqi.png",
+      "bytes": 56756,
+      "sha256": "88954f3836c12ab0abbacbd320d71e9861cfdaf46888bc8e13429b220fcec36f",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/14_lushang_xiaoxin.png",
+      "bytes": 63361,
+      "sha256": "864ee6ac884629dc4a0c58872c48df1f40b9a6db1e72bf797ba2920a6e7301a8",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/04_zao_a.png",
+      "bytes": 62594,
+      "sha256": "af955ab09c0b779892823b5807cd078619a441bc4366a1be7218a6c9e558d471",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/08_bu.png",
+      "bytes": 57406,
+      "sha256": "4fe837ee9798b509dc8903051f8debaad7fe7b7352ba4c2f48c262e0a3d5152a",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/11_meiguanxi.png",
+      "bytes": 62360,
+      "sha256": "33f69f2218245daf50ecf39f40f42892aa98234973ef592ea828fce87638ac1a",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/13_wanan.png",
+      "bytes": 63132,
+      "sha256": "b2d9fa14068643a01ec1936fdcd252291ef16aa2b6d2565f4495d05ccf89fa97",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/01_a_surprised.png",
+      "bytes": 95509,
+      "sha256": "5d859a0c9d98bbef310652c4202f9d6e92acb302320533693828c6a58c47601d",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/04_sha_qing_kuang.png",
+      "bytes": 107118,
+      "sha256": "8bb309a59fac056658a00b050319e4b99ed001d9d21d45933c304098ffa83665",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/11_wo_xiang_jing_jing.png",
+      "bytes": 92160,
+      "sha256": "8ea276b30b54b94ee85dca9709d63bdaf8393158ceb7c2422df57f5f10ba8a5f",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/02_rang_wo_kan_kan.png",
+      "bytes": 84735,
+      "sha256": "3608fc4c23e7ce0e046d53945f0b2878b56a4912a6a65428f6eea57f25c3597c",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/05_bu_gan_shuo.png",
+      "bytes": 105474,
+      "sha256": "9093dde4aaf3aff89db73ee3b0d247f444c52b5cf99a589887c8c378f0c9a9f5",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/09_zhao_ren_nong_ni.png",
+      "bytes": 97307,
+      "sha256": "d75b612c18397c90a747396a6d75c193f0aa05fdd3c2b84ea6d64c29601e8103",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/15_rang_wo_xiang_xiang.png",
+      "bytes": 100439,
+      "sha256": "24ae313ca8bfcc41d3e7f8e92ae5a79d2211eeaac0dbf8c2f31982ef8c1dd11c",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/03_chi_gua_zhong.png",
+      "bytes": 79788,
+      "sha256": "a1259b5f444eeddd98025163a811331c8d976469521555bf36aee141874b1246",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/07_wo_xian_liu_le.png",
+      "bytes": 75835,
+      "sha256": "775a396ffec28c8302d4434828b196128889abc53d1dabc9fd9d3a2d3123ca62",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/16_ni_men_zhen_xing.png",
+      "bytes": 135751,
+      "sha256": "9b19fd8acccbb2c34b3e51f070a59a3c6b9b69e5a5a08a5538864ded43b17103",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/10_ni_cai_shi_tiao_zhan_zhe.png",
+      "bytes": 123145,
+      "sha256": "d1ca8ba0ca9a55c66d5caf06f2dbb7e643d8738f1b804fb05e67cb171f23b983",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/13_you_dian_dong_xi.png",
+      "bytes": 112397,
+      "sha256": "585772bdfbef7569f3db4497dd26ebbf7389d7ff2462f2fd2e1039cc68b25447",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/14_ni_li_mao_ma.png",
+      "bytes": 96804,
+      "sha256": "0adf6aa89e4b27e27229de1cdf4f72ea58da1673dd9f5573c4bf410e9a4e0107",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/06_ni_shuo_de_dui.png",
+      "bytes": 108733,
+      "sha256": "64b570123ff24689026b1eb192c2a741f84c367d6586fd0ec25b58178a6a8a03",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/12_jiu_zhe.png",
+      "bytes": 100429,
+      "sha256": "c1b7b38cccd7512fe7912dae1ae89e50029a9e053557ba0b573fc860cc58a03a",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/08_bie_cui_la.png",
+      "bytes": 116600,
+      "sha256": "b060a236bc461b62c09f6bfba020a9b85f735831f0f17bff6d674286769b83c5",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/1200px/11_wo_xiang_jing_jing_1200.png",
+      "bytes": 1310378,
+      "sha256": "93de53b9e9cd3cc9c2f4530b65fe3c79f703e2ec853df52d0099a07468a50181",
+      "format": "PNG",
+      "size": [
+        1200,
+        1200
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/横幅封面等/MongolMates_Vol03_Chat_Icon_50x50.png",
+      "bytes": 3859,
+      "sha256": "a7d6fad2f7946bd5db7cb2d3886492dfc3dc195eb87c5b7bc9c78f78d274444a",
+      "format": "PNG",
+      "size": [
+        50,
+        50
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/横幅封面等/蒙古萌友：嘴替篇.png",
+      "bytes": 1992400,
+      "sha256": "88950ce9cee976f0898fc65c84e072fef9fbd17243f8323536c2d99261cce60a",
+      "format": "PNG",
+      "size": [
+        1717,
+        916
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友03嘴替篇/横幅封面等/惊喜中的蒙古族小男孩.png",
+      "bytes": 1367120,
+      "sha256": "f1c78cfb38cf48b413de756de1f1dff255eaa58eaf527fbb9ed721cff7da4922",
+      "format": "PNG",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/横幅封面等/download.jpeg",
+      "bytes": 112726,
+      "sha256": "c58632a01b92278e8f8f7fb179bc7ca6b0805831a26829f7d5d922056cbd0318",
+      "format": "JPEG",
+      "size": [
+        750,
+        400
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友01日常篇/横幅封面等/蒙古女孩甜心红心贴纸.png",
+      "bytes": 1416565,
+      "sha256": "321e93a43d6af02752f7cfd3426dfafc42c968e134ee257ec5b9567dd2a19b5c",
+      "format": "PNG",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/横幅封面等/02_daily_cover_240x240.png",
+      "bytes": 75972,
+      "sha256": "29d9d1fcc00e5e722a9bd2007c1f8f26bdc63d05515fb2abbfd934082b93a35d",
+      "format": "PNG",
+      "size": [
+        240,
+        240
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/横幅封面等/03_daily_icon_50x50.png",
+      "bytes": 5142,
+      "sha256": "1dca62ec2db203960086bf44ff67dc6512d3bbc261a8f82dfac517ef9d2a14f7",
+      "format": "PNG",
+      "size": [
+        50,
+        50
+      ],
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_min": 0,
+      "alpha_max": 255
+    },
+    {
+      "path": "蒙古萌友/蒙古萌友02情绪篇/横幅封面等/蒙古草原欢乐一家亲.png",
+      "bytes": 2095670,
+      "sha256": "de5524caa081a6681c4b51dee6f5d3b448ed5687198ad96971ccbf61c64e3a6b",
+      "format": "PNG",
+      "size": [
+        1717,
+        916
+      ],
+      "mode": "RGB",
+      "has_alpha": false
+    }
+  ],
+  "duplicates": {},
+  "unindexed_candidates": [
+    "蒙古萌友/蒙古萌友03嘴替篇/1200px/11_wo_xiang_jing_jing_1200.png"
+  ],
+  "native_master_items": [],
+  "missing_native_master_count": 48,
+  "ambiguous_items": 32,
+  "series_counts": {
+    "vol01_daily": 16,
+    "vol02_emotions": 16,
+    "vol03_reactions": 16
+  }
+}

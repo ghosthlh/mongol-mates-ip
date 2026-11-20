@@ -1,0 +1,45 @@
+series_id: vol02_emotions
+name: 情绪篇
+plan_id: vol02_emotions
+sticker_count: 16
+source_dir: ../蒙古萌友/蒙古萌友02情绪篇
+masters_dir: masters
+working_dir: working
+approved_dir: approved
+revisions_dir: revisions
+previews_dir: previews
+layout_note: 按已审核原图保留对应构图
+approval_status: needs_review
+stickers:
+- sticker_id: '01'
+  title: dad_steady
+- sticker_id: '02'
+  title: dad_speechless
+- sticker_id: '03'
+  title: dad_amazing
+- sticker_id: '04'
+  title: dad_nervous
+- sticker_id: '05'
+  title: mom_hardwork
+- sticker_id: '06'
+  title: mom_speechless
+- sticker_id: '07'
+  title: mom_thanks
+- sticker_id: 08
+  title: mom_exhausted
+- sticker_id: 09
+  title: sister_hmph
+- sticker_id: '10'
+  title: sister_angry
+- sticker_id: '11'
+  title: sister_really
+- sticker_id: '12'
+  title: sister_shy
+- sticker_id: '13'
+  title: brother_shocked
+- sticker_id: '14'
+  title: brother_broken
+- sticker_id: '15'
+  title: brother_go
+- sticker_id: '16'
+  title: brother_sorry

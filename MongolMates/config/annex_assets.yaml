@@ -1,0 +1,28 @@
+schema: mongolmates.annex.v1
+note: 微信专辑附属素材，不属于每套16张标准表情的ZIP；制作时遵守角色规范与比例。
+items:
+- name: 表情封面
+  size: 240x240
+  background: transparent
+  file: ../蒙古萌友/蒙古萌友02情绪篇/横幅封面等/02_daily_cover_240x240.png
+- name: 聊天页图标
+  size: 50x50
+  background: transparent
+  file: ../蒙古萌友/蒙古萌友02情绪篇/横幅封面等/03_daily_icon_50x50.png
+- name: 详情页横幅
+  size: 750x400
+  background: scene
+  file: ../蒙古萌友/蒙古萌友01日常篇/横幅封面等/download.jpeg
+- name: 赞赏引导图
+  size: 750x560
+  background: scene
+  file: null
+- name: 赞赏致谢图
+  size: 750x750
+  background: scene
+  file: null
+extra_reference_images:
+- ../蒙古萌友/四格草原家庭欢乐贴纸角色表.png
+- ../蒙古萌友/红包封面.png
+- ../蒙古萌友/红包感谢.jpg
+- ../蒙古萌友/蒙古萌友03嘴替篇/1200px/11_wo_xiang_jing_jing_1200.png

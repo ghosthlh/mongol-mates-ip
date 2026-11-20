@@ -1,0 +1,48 @@
+# 视觉规范（机器可读）。精确 HEX 为“临时采样值”，来源见 characters/*.yaml，
+# 必须由用户确认的正式高清母版重新提取后方可冻结为官方色。
+style:
+  keywords: [Cute Chibi, Clean Vector-like Illustration, Bold Smooth Outline,
+             Bright Saturated Colors, Soft Cel Shading, Expressive Facial Animation,
+             Traditional Mongolian Character Design, WeChat Sticker]
+  body_ratio: "约 2～3 头身；表情特写可更大头，不得强制把半身改成全身"
+  forbidden_styles: [写实摄影, 3D模型, 像素风, 厚重油画, 复杂纹理, 不一致动漫画风]
+
+lines:
+  outer_outline: "较粗深色外轮廓，流畅圆润，不断裂"
+  inner_detail: "比主外轮廓略细"
+  forbidden: [明显锯齿, 黑色杂点, 过量锐化, 锐化导致的黑白噪点]
+
+# 主色分类（名称 -> 描述）。精确 HEX 见 characters.yaml 的 provisional_palette
+color_roles:
+  father_robe: 暖棕色
+  mother_robe: 青绿色
+  sister_robe: 明亮红色
+  brother_robe: 饱和蓝色
+  costume_decoration: 金黄色
+  pink_headwear: 粉红色
+  hair: 棕色
+  main_outline: 黑色或深棕色
+  reaction_word_art: 深巧克力棕色
+  sticker_outer_stroke: 纯白色
+
+palette_policy:
+  freeze_hex_without_approved_master: false
+  note: "第一阶段不得根据文字猜测精确 HEX；须从正式母版提取。当前值为低清参考图采样，仅作临时参考。"
+
+eyes:
+  normal: [棕色虹膜, 深色瞳孔, 清晰眼白, 明暗分层, 每眼通常一个主要白色高光, 左右眼视觉一致]
+  allowed_expressive: [闭眼, 半眯眼, 死鱼眼, 斜眼, 圆睁眼, 星星眼, 其他已审核夸张眼型]
+  rule: "不得把所有特殊表情统一改成普通高光大眼睛"
+
+text:
+  language: 中文
+  style: "趣味性艺术字/手写感，不得替换为普通系统字体"
+  requirements: [完整, 准确, 不被裁切, 保留语气, 与角色风格一致, 与动作关系清晰]
+  forbidden: [擅自更改文字内容, 擅自更改标点]
+
+# 白描边（以 240×240 成品为标准）
+outline:
+  required_for: transparent_background_stickers
+  width_px_at_240: [4, 6]
+  width_px_at_1200: [20, 30]
+  note: "具体宽度结合视觉调整，不严格一刀切；同一系列白边观感必须统一"
