@@ -1,6 +1,6 @@
 schema: mongolmates.asset_manifest.v1
 generated_at: '2026-11-20'
-note: 嘴替篇16张为用户2026-11-20确认的正式视觉母版(approved)；原生分辨率均为240px，缺原生高清(missing_native_master=true)。其余两套仍为needs_review。
+note: 嘴替篇16张为用户2026-11-20确认的正式视觉母版(approved)；现有240×240源图保留；嘴替篇01已补齐审核通过的1200×1200高清母版，其余尚缺。旧高清版本有质量问题，暂缓纳入母版。其余两套仍为needs_review。
 items:
 - series_id: vol01_daily
   sticker_id: '01'
@@ -70,8 +70,8 @@ items:
   sha256: fa31b8a41d189ac6da78a03803dc1372f8dbfc091e4e62ed36bd81e7cceec4af
 - series_id: vol01_daily
   sticker_id: '04'
-  title: 兄弟！
-  caption: 兄弟！
+  title: 早啊！
+  caption: 早啊！
   characters: []
   source_file: ../蒙古萌友/蒙古萌友01日常篇/04_zao_a.png
   working_file: null
@@ -136,8 +136,8 @@ items:
   sha256: cd48e41266c71505f22d6ea6a4d345784b4ee9d4bd722b9bc256cf5fbb88cab9
 - series_id: vol01_daily
   sticker_id: '07'
-  title: 对！
-  caption: 对！
+  title: 收到！
+  caption: 收到！
   characters: []
   source_file: ../蒙古萌友/蒙古萌友01日常篇/07_shoudao.png
   working_file: null
@@ -334,8 +334,8 @@ items:
   sha256: 1ba9fc713dfed3d6d8db922f8a3d02cebaeda671468cd72528a0d2a8cb2c2dfa
 - series_id: vol01_daily
   sticker_id: '16'
-  title: 那达慕！
-  caption: 那达慕！
+  title: 开饭啦！
+  caption: 开饭啦！
   characters: []
   source_file: ../蒙古萌友/蒙古萌友01日常篇/16_kaifanla.png
   working_file: null
@@ -356,8 +356,8 @@ items:
   sha256: c64a2d6f8b6de3842d4fe1bd8ef8e04783759c218f5754c63dd445be8377973b
 - series_id: vol02_emotions
   sticker_id: '01'
-  title: dad_steady
-  caption: null
+  title: 稳了！
+  caption: 稳了！
   characters:
   - father
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/01_dad_steady.png
@@ -375,12 +375,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 dad_steady 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 0cae9dfefa149bb1a0a56982642d3e82f9020400d476f9216a86b7ef01cca738
 - series_id: vol02_emotions
   sticker_id: '02'
-  title: dad_speechless
-  caption: null
+  title: 我服了！
+  caption: 我服了！
   characters:
   - father
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/02_dad_speechless.png
@@ -398,12 +398,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 dad_speechless 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 906639f4ee975f6c5ed0cec85728ac8953bb7c69739519a8af285790fb422b25
 - series_id: vol02_emotions
   sticker_id: '03'
-  title: dad_amazing
-  caption: null
+  title: 太棒啦！
+  caption: 太棒啦！
   characters:
   - father
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/03_dad_amazing.png
@@ -421,12 +421,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 dad_amazing 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: b3ebf28abeccc5af7cbf423a1569fdd4025865fc0072878fa9a6679e6b6e7f60
 - series_id: vol02_emotions
   sticker_id: '04'
-  title: dad_nervous
-  caption: null
+  title: 有点慌…
+  caption: 有点慌…
   characters:
   - father
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/04_dad_nervous.png
@@ -444,12 +444,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 dad_nervous 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 26afd8f64f6afb1256c2d5edd68654092276711fb7593d272e98a2e3736e6f8c
 - series_id: vol02_emotions
   sticker_id: '05'
-  title: mom_hardwork
-  caption: null
+  title: 辛苦啦！
+  caption: 辛苦啦！
   characters:
   - mother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/05_mom_hardwork.png
@@ -467,12 +467,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 mom_hardwork 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: f8e94ba60b14cf74a8d99db04fcda2c5e409e6d9024728933136479f7c2fe0ca
 - series_id: vol02_emotions
   sticker_id: '06'
-  title: mom_speechless
-  caption: null
+  title: 无语…
+  caption: 无语…
   characters:
   - mother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/06_mom_speechless.png
@@ -490,12 +490,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 mom_speechless 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 647125968b1581906861d931e6f2bb236d8d74bbe86f9750170974546aea0ed3
 - series_id: vol02_emotions
   sticker_id: '07'
-  title: mom_thanks
-  caption: null
+  title: 谢谢！
+  caption: 谢谢！
   characters:
   - mother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/07_mom_thanks.png
@@ -513,12 +513,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 mom_thanks 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 55188f8c7658df71310df6940246a4cef109e4d42f58d93bcf5bd8cad6f4202c
 - series_id: vol02_emotions
   sticker_id: 08
-  title: mom_exhausted
-  caption: null
+  title: 累瘫了…
+  caption: 累瘫了…
   characters:
   - mother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/08_mom_exhausted.png
@@ -536,12 +536,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 mom_exhausted 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: e0169d8e2d623bf59aed876fe42b72498fb60869dd30621f89ec1fab749d5764
 - series_id: vol02_emotions
   sticker_id: 09
-  title: sister_hmph
-  caption: null
+  title: 哼！
+  caption: 哼！
   characters:
   - sister
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/09_sister_hmph.png
@@ -559,12 +559,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 sister_hmph 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 921dffd8cad9270d737ec3d04a4321c4281bf40cb19508491ea88e8b8dd8f5e7
 - series_id: vol02_emotions
   sticker_id: '10'
-  title: sister_angry
-  caption: null
+  title: 好气！
+  caption: 好气！
   characters:
   - sister
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/10_sister_angry.png
@@ -582,12 +582,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 sister_angry 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: af2717c89692a7b575b043b0ca103e4a2f86cd5d86f09f93ff4784d78a04df3a
 - series_id: vol02_emotions
   sticker_id: '11'
-  title: sister_really
-  caption: null
+  title: 真的吗？
+  caption: 真的吗？
   characters:
   - sister
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/11_sister_really.png
@@ -605,12 +605,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 sister_really 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: f6cfa601c487e8b5add98b5b95e6b84b4ec2bb651384127a8754efb47ace255e
 - series_id: vol02_emotions
   sticker_id: '12'
-  title: sister_shy
-  caption: null
+  title: 害羞了～
+  caption: 害羞了～
   characters:
   - sister
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/12_sister_shy.png
@@ -628,12 +628,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 sister_shy 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: ca08b473326d67cb8061beef2f51e33dfaf0fe330b4b503213c46446989c9b30
 - series_id: vol02_emotions
   sticker_id: '13'
-  title: brother_shocked
-  caption: null
+  title: 震惊！
+  caption: 震惊！
   characters:
   - brother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/13_brother_shocked.png
@@ -651,12 +651,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 brother_shocked 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 24f19a1fcfd125e5a76827e52638686a534922ae792830db6fb98d224e9f644d
 - series_id: vol02_emotions
   sticker_id: '14'
-  title: brother_broken
-  caption: null
+  title: 我裂开了…
+  caption: 我裂开了…
   characters:
   - brother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/14_brother_broken.png
@@ -674,12 +674,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 brother_broken 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: d5b8a741c285d15a1db3e2934122c6b4abc49ff94b6ebeb8de82780441585fe1
 - series_id: vol02_emotions
   sticker_id: '15'
-  title: brother_go
-  caption: null
+  title: 冲鸭！
+  caption: 冲鸭！
   characters:
   - brother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/15_brother_go.png
@@ -697,12 +697,12 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 brother_go 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 3157f844d5eb457388a71fb7517b60350b8fd52daf74a915da71b07fde14d287
 - series_id: vol02_emotions
   sticker_id: '16'
-  title: brother_sorry
-  caption: null
+  title: 我错啦！
+  caption: 我错啦！
   characters:
   - brother
   source_file: ../蒙古萌友/蒙古萌友02情绪篇/16_brother_sorry.png
@@ -720,7 +720,7 @@ items:
   approval_status: needs_review
   version: v0.1
   updated_at: '2026-11-20'
-  change_note: 历史标识 brother_sorry 仅用于识别素材；真实中文文字须读取原图后登记，不得当作已核实文案。当前240x240无透明通道，缺原生高清。
+  change_note: 中文文案已按现有成图登记。当前240×240无透明通道，缺已审核的原生高清。
   sha256: 3b3b10a97c92b148c9e100598f5de023472ae4623af0b90e59b0fc8a280cc8ee
 - series_id: vol03_reactions
   sticker_id: '01'
@@ -730,23 +730,25 @@ items:
   - brother
   source_file: ../蒙古萌友/蒙古萌友03嘴替篇/01_a_surprised.png
   working_file: null
-  master_file: ../蒙古萌友/蒙古萌友03嘴替篇/01_a_surprised.png
+  master_file: series/vol03_reactions/masters/01_a_surprised_1200.png
+  wechat_file: series/vol03_reactions/approved/240x240/01.png
   width: 240
   height: 240
   source_resolution: 240x240
-  is_native_master: false
-  missing_native_master: true
+  is_native_master: true
+  missing_native_master: false
   background_mode: transparent
   source_actual_mode: RGBA/alpha
   outline_required: true
   composition: bust
   approval_status: approved
-  version: v1.0
+  version: v1.1
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户确认 v1.1 半身贴底修订。原生生成 1254×1254 PNG，按原像素裁切为 1200×1200 母版，再导出 240×240。
   sha256: 5d859a0c9d98bbef310652c4202f9d6e92acb302320533693828c6a58c47601d
-  master_sha256: 5d859a0c9d98bbef310652c4202f9d6e92acb302320533693828c6a58c47601d
-  master_resolution: 240x240
+  master_sha256: 96ff82d214df9dbe281cc8f1d77d392f938d97b87b9407583e1578585013df92
+  wechat_sha256: 2c43ad236122243575f9c14edf348ee1da58c75e9e5f5d54ace696feae982355
+  master_resolution: 1200x1200
 - series_id: vol03_reactions
   sticker_id: '02'
   title: 让我看看～
@@ -768,7 +770,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 3608fc4c23e7ce0e046d53945f0b2878b56a4912a6a65428f6eea57f25c3597c
   master_sha256: 3608fc4c23e7ce0e046d53945f0b2878b56a4912a6a65428f6eea57f25c3597c
   master_resolution: 240x240
@@ -793,7 +795,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: a1259b5f444eeddd98025163a811331c8d976469521555bf36aee141874b1246
   master_sha256: a1259b5f444eeddd98025163a811331c8d976469521555bf36aee141874b1246
   master_resolution: 240x240
@@ -818,7 +820,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 8bb309a59fac056658a00b050319e4b99ed001d9d21d45933c304098ffa83665
   master_sha256: 8bb309a59fac056658a00b050319e4b99ed001d9d21d45933c304098ffa83665
   master_resolution: 240x240
@@ -843,7 +845,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 9093dde4aaf3aff89db73ee3b0d247f444c52b5cf99a589887c8c378f0c9a9f5
   master_sha256: 9093dde4aaf3aff89db73ee3b0d247f444c52b5cf99a589887c8c378f0c9a9f5
   master_resolution: 240x240
@@ -868,7 +870,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 64b570123ff24689026b1eb192c2a741f84c367d6586fd0ec25b58178a6a8a03
   master_sha256: 64b570123ff24689026b1eb192c2a741f84c367d6586fd0ec25b58178a6a8a03
   master_resolution: 240x240
@@ -893,7 +895,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 775a396ffec28c8302d4434828b196128889abc53d1dabc9fd9d3a2d3123ca62
   master_sha256: 775a396ffec28c8302d4434828b196128889abc53d1dabc9fd9d3a2d3123ca62
   master_resolution: 240x240
@@ -918,7 +920,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: b060a236bc461b62c09f6bfba020a9b85f735831f0f17bff6d674286769b83c5
   master_sha256: b060a236bc461b62c09f6bfba020a9b85f735831f0f17bff6d674286769b83c5
   master_resolution: 240x240
@@ -943,7 +945,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: d75b612c18397c90a747396a6d75c193f0aa05fdd3c2b84ea6d64c29601e8103
   master_sha256: d75b612c18397c90a747396a6d75c193f0aa05fdd3c2b84ea6d64c29601e8103
   master_resolution: 240x240
@@ -968,7 +970,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: d1ca8ba0ca9a55c66d5caf06f2dbb7e643d8738f1b804fb05e67cb171f23b983
   master_sha256: d1ca8ba0ca9a55c66d5caf06f2dbb7e643d8738f1b804fb05e67cb171f23b983
   master_resolution: 240x240
@@ -993,7 +995,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 8ea276b30b54b94ee85dca9709d63bdaf8393158ceb7c2422df57f5f10ba8a5f
   master_sha256: 8ea276b30b54b94ee85dca9709d63bdaf8393158ceb7c2422df57f5f10ba8a5f
   master_resolution: 240x240
@@ -1024,7 +1026,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: c1b7b38cccd7512fe7912dae1ae89e50029a9e053557ba0b573fc860cc58a03a
   master_sha256: c1b7b38cccd7512fe7912dae1ae89e50029a9e053557ba0b573fc860cc58a03a
   master_resolution: 240x240
@@ -1049,7 +1051,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 585772bdfbef7569f3db4497dd26ebbf7389d7ff2462f2fd2e1039cc68b25447
   master_sha256: 585772bdfbef7569f3db4497dd26ebbf7389d7ff2462f2fd2e1039cc68b25447
   master_resolution: 240x240
@@ -1074,7 +1076,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 0adf6aa89e4b27e27229de1cdf4f72ea58da1673dd9f5573c4bf410e9a4e0107
   master_sha256: 0adf6aa89e4b27e27229de1cdf4f72ea58da1673dd9f5573c4bf410e9a4e0107
   master_resolution: 240x240
@@ -1099,7 +1101,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 24ae313ca8bfcc41d3e7f8e92ae5a79d2211eeaac0dbf8c2f31982ef8c1dd11c
   master_sha256: 24ae313ca8bfcc41d3e7f8e92ae5a79d2211eeaac0dbf8c2f31982ef8c1dd11c
   master_resolution: 240x240
@@ -1126,7 +1128,7 @@ items:
   approval_status: approved
   version: v1.0
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。原生分辨率仅240px（无原生高清），高清档位待后续补齐。
+  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
   sha256: 9b19fd8acccbb2c34b3e51f070a59a3c6b9b69e5a5a08a5538864ded43b17103
   master_sha256: 9b19fd8acccbb2c34b3e51f070a59a3c6b9b69e5a5a08a5538864ded43b17103
   master_resolution: 240x240

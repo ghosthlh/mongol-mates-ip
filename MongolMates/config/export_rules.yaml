@@ -2,7 +2,9 @@
 native_master:
   dir_name: "original"
   formats: [PNG]
-  preferred_min_size: 1200
+  preferred_size: [1200, 1200]
+  validation_min_long_edge: 600
+  generate_new_stickers_at_native_resolution: true
   upscale_lowres_to_fake_hd: false
   if_source_is_240_only: "source_resolution 记为 240x240，is_native_master=false，标记 missing_native_master"
   preserve_confirmed_composition: true

@@ -11,7 +11,7 @@ from __future__ import annotations
 import sys, argparse, json
 from pathlib import Path
 from PIL import Image, ImageFilter
-from mm_common import (project_root, resolve, load_manifest, items_by_key, VALID_SERIES)
+from mm_common import (MIN_MASTER_LONG_EDGE, project_root, resolve, load_manifest, items_by_key, VALID_SERIES)
 
 
 def add_white_outline(im: Image.Image, width_px: int) -> Image.Image:
@@ -42,7 +42,7 @@ def export_one(root: Path, item: dict, outline_width: int = 5, add_outline: bool
         res["reason"] = f"母版文件不存在: {master_rel}"; return res
     with Image.open(master) as im0:
         mw, mh = im0.size
-        if max(mw, mh) < 600:
+        if max(mw, mh) < MIN_MASTER_LONG_EDGE:
             res["reason"] = f"母版分辨率过低 {mw}x{mh}，疑似低清冒充高清"; return res
         im = im0.convert("RGBA")
     # Lanczos 高质量缩小到 240x240（正方形画布，居中，不变形）

@@ -8,7 +8,7 @@ working_dir: working
 approved_dir: approved
 revisions_dir: revisions
 previews_dir: previews
-layout_note: 多数人物上方/中间、中文下方；具体以已审核母版为准
+layout_note: 文案及排版以对应现有成图为准
 approval_status: needs_review
 stickers:
 - sticker_id: '01'
@@ -18,13 +18,13 @@ stickers:
 - sticker_id: '03'
   title: 来啦！
 - sticker_id: '04'
-  title: 兄弟！
+  title: 早啊！
 - sticker_id: '05'
   title: 好！
 - sticker_id: '06'
   title: 行！
 - sticker_id: '07'
-  title: 对！
+  title: 收到！
 - sticker_id: 08
   title: 不！
 - sticker_id: 09
@@ -42,4 +42,4 @@ stickers:
 - sticker_id: '15'
   title: 拜拜！
 - sticker_id: '16'
-  title: 那达慕！
+  title: 开饭啦！

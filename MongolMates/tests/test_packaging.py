@@ -65,6 +65,26 @@ class TestPackaging(unittest.TestCase):
         rep = verify(out, expect_pairs=16)
         self.assertFalse(rep["ok"])
 
+    def test_verify_checks_original_png_and_resolution(self):
+        small = io.BytesIO()
+        Image.new("RGBA", (240, 240)).save(small, "PNG")
+        jpeg = io.BytesIO()
+        Image.new("RGB", (1200, 1200)).save(jpeg, "JPEG")
+        cases = (
+            (b"not a PNG", "无法解码为 PNG"),
+            (jpeg.getvalue(), "无法解码为 PNG"),
+            (small.getvalue(), "高清版尺寸过小"),
+        )
+        for data, message in cases:
+            with self.subTest(message=message):
+                out = self.root / "invalid-original.zip"
+                with zipfile.ZipFile(out, "w") as archive:
+                    archive.writestr("Test/original/11.png", data)
+                    archive.writestr("Test/240x240/11.png", small.getvalue())
+                report = verify(out, expect_pairs=1)
+                self.assertFalse(report["ok"])
+                self.assertTrue(any(message in issue for issue in report["issues"]), report)
+
     def test_source_master_not_modified(self):
         before = sha256_file(self.master)
         out = self.root/"p6.zip"

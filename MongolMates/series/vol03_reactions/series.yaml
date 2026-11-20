@@ -9,7 +9,7 @@ approved_dir: approved
 revisions_dir: revisions
 previews_dir: previews
 layout_note: 多数中文位于上方、人物中下部；第10张放射线背景保留白底
-approval_status: needs_review
+approval_status: approved
 stickers:
 - sticker_id: '01'
   title: 啊？！

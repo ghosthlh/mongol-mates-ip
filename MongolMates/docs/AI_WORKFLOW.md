@@ -30,7 +30,7 @@ Skill 必须调用项目规范，不得复制出冲突规则。
 读角色档案 + 表情元数据
       ↓
 判断任务类型
-   ├─ 新制作 → 参考 CHARACTER_BIBLE + 已审核同角色表情
+   ├─ 新制作 → 参考 CHARACTER_BIBLE 和同角色已审核表情，直接制作原生高清候选
    ├─ 局部修复 → 走 IMAGE_EDITING_RULES 七步法
    └─ 导出 → 走 DELIVERY_STANDARD
       ↓
@@ -48,7 +48,7 @@ Skill 必须调用项目规范，不得复制出冲突规则。
 `imported → needs_review → working → candidate → approved`（或 `rejected` / `archived`）。
 
 - `approved` 只能由用户明确确认产生，工具不得自动置位。
-- 当前所有图片处于 `needs_review`。
+- 当前审核状态见 `config/asset_manifest.yaml`。视觉版本与高清母版分别确认。
 
 ## 初始化阶段纪律
 
