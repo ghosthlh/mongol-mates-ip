@@ -44,16 +44,16 @@ python3 tools/export_240.py --series vol03_reactions --sticker 11   # 需先 app
 python3 tools/package_series.py vol03_reactions                     # 需全部 approved + 高清
 python3 tools/package_patch.py vol03_reactions 01 11 --version 1.1
 python3 tools/verify_zip.py <包.zip> --expect-count 16
-python3 tests/run_tests.py                          # 零依赖测试
+python3 tests/run_tests.py                          # 测试，依赖 Pillow 和 PyYAML
 ```
 
 ## 当前状态摘要
 
-- 三套共 48 个表情位已建立索引；每张元数据完整。
-- **48/48 缺原生高清母版**：用户确认全部为 240px 直出，无 1200px 原生高清。曾有缺陷的 1200px「我想静静…」已否决。
+- 三套共 48 张已建立索引，标题和文案以现有成图为准。
+- **48 张均缺已审核的原生高清母版。** 当前登记的成图为 240×240。旧高清版本有质量问题，暂缓纳入母版。
 - **嘴替篇 16 张已冻结为正式视觉母版**（`approved` / v1.0，用户 2026-11-20 确认满意）；详见 `reports/release_history/master_freeze_2026-11-20.md`。日常篇/情绪篇 32 张仍为 `needs_review`。
 - 角色主色为低清参考图采样值（provisional），需由正式母版重新提取后冻结。
-- 正式高清 ZIP 需补齐原生 1200px 母版后才会放行（`original/`+`240x240/` 双版本）；闸门拒绝属符合规范的诚实行为。
+- 新表情直接制作原生高清 PNG，优先保留 1200×1200 或更高的原生尺寸。审核通过后生成 `240x240/`，随 `original/` 一同交付。
 
 ## Git 仓库与跨设备共享
 

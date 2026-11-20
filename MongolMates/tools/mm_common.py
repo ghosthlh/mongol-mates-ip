@@ -6,6 +6,8 @@ import os, sys, hashlib, yaml
 from pathlib import Path
 from PIL import Image
 
+MIN_MASTER_LONG_EDGE = 600
+
 VALID_STATUS = {"imported","needs_review","working","candidate","approved","rejected","archived"}
 VALID_BG = {"transparent","white_scene"}
 VALID_COMP = {"bust","full_body","seated","scene"}
