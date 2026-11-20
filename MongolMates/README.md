@@ -54,3 +54,12 @@ python3 tests/run_tests.py                          # 零依赖测试
 - **嘴替篇 16 张已冻结为正式视觉母版**（`approved` / v1.0，用户 2026-11-20 确认满意）；详见 `reports/release_history/master_freeze_2026-11-20.md`。日常篇/情绪篇 32 张仍为 `needs_review`。
 - 角色主色为低清参考图采样值（provisional），需由正式母版重新提取后冻结。
 - 正式高清 ZIP 需补齐原生 1200px 母版后才会放行（`original/`+`240x240/` 双版本）；闸门拒绝属符合规范的诚实行为。
+
+## Git 仓库与跨设备共享
+
+- 仓库根在 **`表情包/`**（即 `MongolMates/` 与 `蒙古萌友/` 的上一级），一次 clone 同时得到规范系统 + 全部原始母版，脚本相对路径全部有效。
+- 纳入：`MongolMates/` 全部文本/脚本/报告 + `蒙古萌友/` 全部 60 张原始母版图（约 20MB，直接入库，不用 LFS）。
+- 排除：项目内可再生成的派生预览图、表情参考卡、ZIP、`.workbuddy/`、`.DS_Store`（见仓库根 `.gitignore`）。
+- 远程：GitHub `ghosthlh/mongol-mates-ip`（SSH `git@github.com:ghosthlh/mongol-mates-ip.git`）。
+- 换设备后：`git clone <远程地址>`，`cd MongolMates && python3 tests/run_tests.py` 即可验证完整性。
+- 注意：原始图片是官方母版，push/pull 前确认本地为最新，避免覆盖他人已确认的修订。
