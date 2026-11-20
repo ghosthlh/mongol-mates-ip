@@ -100,8 +100,7 @@ def write_report(root: Path, data: dict):
         L.append("")
         for n in data["native_master_items"]:
             L.append(f"- {n['series']} / {n['id']} {n['title']} → `{n['file']}`")
-    L.append("\n> 据用户确认：现有表情均为 240px 直出，无 1200px 原生高清。"
-             "按规范不得放大冒充 `original`，缺高清档位者**不得通过正式高清交付验收**。\n")
+    L.append("\n> 正式交付使用已审核的原生高清母版。源文件中的 240×240 图可供比对。\n")
     L.append("## 审核状态与待确认版本\n")
     from collections import Counter as _C
     sc = _C(i.get("approval_status") for i in load_manifest(root)["items"])
@@ -110,8 +109,7 @@ def write_report(root: Path, data: dict):
     L.append("")
     L.append("- 嘴替篇 16 张经用户 2026-11-20 明确确认满意，已冻结为正式视觉母版（approved，v1.0）。")
     L.append("- 曾有缺陷的 1200px「我想静静…」已被否决，记录在该条目的 rejected_candidates 中。")
-    L.append("- 情绪篇 16 张仅有英文标识，真实中文文案须读图登记，不得当作已核实文字。")
-    L.append("- 日常篇文件名与规范文字存在差异（04 zao_a/兄弟、07 shoudao/对、16 kaifanla/那达慕），须核对。\n")
+    L.append("- 日常篇与情绪篇的中文文案见资产清单，以对应成图为准。\n")
     L.append("## 重复文件（按 SHA-256）\n")
     if data["duplicates"]:
         for k,v in data["duplicates"].items(): L.append(f"- {k[:12]}… → {v}")

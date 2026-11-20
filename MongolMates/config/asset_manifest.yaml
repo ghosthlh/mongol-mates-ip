@@ -1,6 +1,6 @@
 schema: mongolmates.asset_manifest.v1
 generated_at: '2026-11-20'
-note: 嘴替篇16张为用户2026-11-20确认的正式视觉母版(approved)；目前登记的成图均为240×240，缺已审核的原生高清（missing_native_master=true）。旧高清版本有质量问题，暂缓纳入母版。其余两套仍为needs_review。
+note: 嘴替篇16张为用户2026-11-20确认的正式视觉母版(approved)；现有240×240源图保留；嘴替篇01已补齐审核通过的1200×1200高清母版，其余尚缺。旧高清版本有质量问题，暂缓纳入母版。其余两套仍为needs_review。
 items:
 - series_id: vol01_daily
   sticker_id: '01'
@@ -730,23 +730,25 @@ items:
   - brother
   source_file: ../蒙古萌友/蒙古萌友03嘴替篇/01_a_surprised.png
   working_file: null
-  master_file: ../蒙古萌友/蒙古萌友03嘴替篇/01_a_surprised.png
+  master_file: series/vol03_reactions/masters/01_a_surprised_1200.png
+  wechat_file: series/vol03_reactions/approved/240x240/01.png
   width: 240
   height: 240
   source_resolution: 240x240
-  is_native_master: false
-  missing_native_master: true
+  is_native_master: true
+  missing_native_master: false
   background_mode: transparent
   source_actual_mode: RGBA/alpha
   outline_required: true
   composition: bust
   approval_status: approved
-  version: v1.0
+  version: v1.1
   updated_at: '2026-11-20'
-  change_note: 用户于2026-11-20明确确认嘴替篇整套为满意版本，冻结为正式视觉母版。当前确认的成图为240×240，原生高清母版待补。
+  change_note: 用户确认 v1.1 半身贴底修订。原生生成 1254×1254 PNG，按原像素裁切为 1200×1200 母版，再导出 240×240。
   sha256: 5d859a0c9d98bbef310652c4202f9d6e92acb302320533693828c6a58c47601d
-  master_sha256: 5d859a0c9d98bbef310652c4202f9d6e92acb302320533693828c6a58c47601d
-  master_resolution: 240x240
+  master_sha256: 96ff82d214df9dbe281cc8f1d77d392f938d97b87b9407583e1578585013df92
+  wechat_sha256: 2c43ad236122243575f9c14edf348ee1da58c75e9e5f5d54ace696feae982355
+  master_resolution: 1200x1200
 - series_id: vol03_reactions
   sticker_id: '02'
   title: 让我看看～

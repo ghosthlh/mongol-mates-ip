@@ -5,9 +5,11 @@ from __future__ import annotations
 import unittest, sys
 from pathlib import Path
 
+from PIL import Image
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 from mm_common import (load_manifest, project_root, VALID_ROLES, VALID_BG,
-                       VALID_STATUS, VALID_COMP, VALID_SERIES)
+                       VALID_STATUS, VALID_COMP, VALID_SERIES, sha256_file)
 from validate_character_metadata import validate
 
 
@@ -55,11 +57,16 @@ class TestManifest(unittest.TestCase):
         self.assertEqual(warnings, [], warnings)
 
     def test_native_master_honest(self):
-        # 用户确认所有表情均为 240px 直出、无 1200px 原生高清。
-        # 曾有缺陷的 1200px「我想静静」已被否决并记入 rejected_candidates。
-        natives = [i for i in self.items if i["is_native_master"]]
-        self.assertEqual(len(natives), 0, "全部为 240px 原生，无原生高清母版")
-        self.assertTrue(all(i["missing_native_master"] for i in self.items))
+        for item in self.items:
+            with self.subTest(series=item["series_id"], sticker=item["sticker_id"]):
+                self.assertNotEqual(item["is_native_master"], item["missing_native_master"])
+                if item["is_native_master"]:
+                    master = self.root / item["master_file"]
+                    self.assertEqual(item["approval_status"], "approved")
+                    self.assertEqual(sha256_file(master), item["master_sha256"])
+                    with Image.open(master) as im:
+                        self.assertEqual(im.format, "PNG")
+                        self.assertEqual(f"{im.width}x{im.height}", item["master_resolution"])
         s11 = [i for i in self.items if i["series_id"]=="vol03_reactions" and str(i["sticker_id"])=="11"][0]
         self.assertEqual(s11["approval_status"], "approved")
         self.assertEqual(s11["rejected_candidates"][0]["status"], "rejected")
